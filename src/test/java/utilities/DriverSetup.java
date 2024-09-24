@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class DriverSetup {
 
-    private static String browserName = System.getProperty("browser", "Chrome");
+    private static String browserName = System.getProperty("browser", "Edge");
 
     private static final ThreadLocal<WebDriver> WEB_DRIVER_THREAD_LOCAL = new ThreadLocal<>();
 
